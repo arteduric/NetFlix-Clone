@@ -1,0 +1,18 @@
+@media screen and (max-width:700px ) { /*Condição para aplicar responsividade*/
+    header .container{ /*Quando a tela tiver no máximo 700px, aplica a instrução*/
+        display: flex;
+        flex-direction: column;
+    }
+
+    .botao{
+        margin-top: 5px;
+        width: 300px;
+    }    
+}
+
+@media screen and (min-width:1000px) { /*Quando a tela tive no mínimo 1000px aplica a instrução*/
+    .descricao{
+        width: 50%;
+    }
+    
+}
